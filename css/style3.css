@@ -1,184 +1,125 @@
 /* time used to do this page    =>    2h */
 .div7 {
     margin-top: 95px;
-    height: 850px;
+    height: 780px;
+    position: relative;
 }
 
 .star {
     position: absolute;
-    top: 8px;
-
+    top: 6px;
     color: #0050ff;
 }
 
-.first {
+.first,
+.last,
+.email,
+.message,
+.subject {
     position: absolute;
-    top: 0;
-    left: 40px;
-    margin-top: 50px;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 300;
     transition: 1s;
+    margin-top: 50px;
 }
 
-.first:hover {
-    font-size: 40px;
+.first-in,
+.last-in,
+.email-in,
+.subject-in,
+.message-in {
+    border: 0;
+    border-bottom: solid #000000 2px;
+    position: absolute;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 100;
+    height: 30px;
+    transition: 0.5s;
+    border-radius: 2px;
+    outline: none;
+}
+
+.first:hover,
+.last:hover,
+.email:hover {
     color: #043aae;
+}
+
+.first-in:hover,
+.last-in:hover,
+.email-in:hover,
+.message-in:hover,
+.subject-in:hover {
+    border-bottom: solid #0050ff 2px;
+    border-radius: 2px;
+}
+
+.first {
+    top: 0;
+    left: 40px;
 }
 
 .first-in {
-    border: 0;
-    border-bottom: solid #000000 3px;
-    position: absolute;
-    width: 40%;
-    font-size: 25px;
-    height: 30px;
-    top: 120px;
+    top: 100px;
     left: 40px;
-    transition: 0.5s;
-    border-radius: 2px;
-    outline: none;
-}
-
-.first-in:hover {
-    border-bottom: solid #0050ff 3px;
-    border-radius: 2px;
 }
 
 .last {
-    position: absolute;
     top: 0;
     left: 54%;
-    margin-top: 50px;
-    font-size: 35px;
-    font-weight: 300;
-    transition: 1s;
-}
-
-.last:hover {
-    font-size: 40px;
-    color: #043aae;
 }
 
 .last-in {
-    border: 0;
-    border-bottom: solid #000000 3px;
-    position: absolute;
-    width: 40%;
-    font-size: 25px;
-    height: 30px;
-    top: 120px;
+    top: 100px;
     left: 54%;
-    transition: 0.5s;
-    border-radius: 2px;
-    outline: none;
-}
-
-.last-in:hover {
-    border-bottom: solid #0050ff 3px;
-    border-radius: 2px;
 }
 
 .email {
-    position: absolute;
-    top: 180px;
+    top: 150px;
     left: 40px;
-    margin-top: 50px;
-    font-size: 35px;
-    font-weight: 300;
-    transition: 1s;
 }
 
-.email:hover {
-    font-size: 40px;
-    color: #043aae;
-}
 
 .email-in {
-    border: 0;
-    border-bottom: solid #000000 3px;
-    position: absolute;
-    width: 90%;
-    font-size: 25px;
-    height: 30px;
-    top: 300px;
+    top: 260px;
     left: 40px;
-    transition: 0.5s;
-    border-radius: 2px;
-    outline: none;
+    width: 90%;
 }
 
-.email-in:hover {
-    border-bottom: solid #0050ff 3px;
-    border-radius: 2px;
-}
 .subject {
-    position: absolute;
-    top: 360px;
+    top: 330px;
     left: 40px;
-    margin-top: 50px;
-    font-size: 35px;
-    font-weight: 300;
-    transition: 1s;
 }
-.subject:hover{
-    font-size: 40px;
-}
+
 .subject-in {
-    border: 0;
-    border-bottom: solid #000000 3px;
-    position: absolute;
+    top: 450px;
+    left: 40px;
     width: 90%;
-    font-size: 25px;
-    height: 30px;
-    top: 480px;
-    left: 40px;
-    transition: 0.5s;
-    border-radius: 2px;
-    outline: none;
 }
-.subject-in:hover{
-    border-bottom: solid #0050ff 3px;
-    border-radius: 2px;
-}
+
 .message {
-    position: absolute;
-    top: 540px;
+    top: 510px;
     left: 40px;
-    margin-top: 50px;
-    font-size: 35px;
-    font-weight: 300;
-    transition: 1s;
 }
-.message:hover{
-    font-size: 40px;
-}
+
 .message-in {
     resize: none;
-    height: 150px;
-    border: 0;
-    border-bottom: solid #000000 3px;
-    position: absolute;
-    width: 90%;
-    font-size: 25px;
-    top: 660px;
+    height: 100px;
+    top: 620px;
     left: 40px;
-    transition: 0.5s;
-    border-radius: 2px;
-    outline: none;
+    width: 90%;
 }
-.message-in:hover{
-    border-bottom: solid #0050ff 3px;
-    border-radius: 2px;
-}
-.button1{
+
+.butt1 {
     position: absolute;
-    top: 821px;
+    top: 760px;
     left: 41%;
     padding: 15px 50px;
     border-radius: 30px;
 }
-.button1 .as8:hover{
+
+.butt1 .as8:hover {
     color: #000000;
     font-size: 25px;
 }

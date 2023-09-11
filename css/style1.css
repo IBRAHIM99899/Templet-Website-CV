@@ -12,10 +12,12 @@
 }
 .name3:hover{
     color: hwb(221 2% 20%);
+
 }
 
 .ha {
     transform: translate(43%, 50%);
+    margin-top: 100px;
 }
 
 .exp {
